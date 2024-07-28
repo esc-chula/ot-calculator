@@ -13,6 +13,17 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      fontFamily: {
+        ibm: ["var(--font-ibm-plex-sans-thai)", "sans-serif"],
+        inter: ["var(--font-inter)", "sans-serif"],
+      },
+      colors: {
+        esc: {
+          carmine: "#821923",
+          cloud: "#FFFFFF",
+          carbon: "#262626",
+        },
+      },
     },
   },
   plugins: [],
